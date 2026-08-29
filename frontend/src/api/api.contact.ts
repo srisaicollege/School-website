@@ -9,6 +9,6 @@ export interface ContactInquiry {
 }
 
 export const sendInquiry = async (data: ContactInquiry) => {
-    const response = await api.post("/contact", data);
+    const response = await api.post("/api/v1/contact", data);
     return response.data;
 };
