@@ -1,0 +1,23 @@
+{
+  "name": "sai-college-backend-server",
+  "version": "1.0.0",
+  "description": "This is backend for sai-college-for-women",
+  "license": "ISC",
+  "author": "srisaicollegeforwomen",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "nodemon": "^3.1.14",
+    "resend": "^6.9.3",
+    "zod": "^4.3.6"
+  }
+}
