@@ -102,7 +102,7 @@ const Navbar = () => {
                                 </h1>
                                 <p className={`font-bold tracking-[0.4em] uppercase mt-1 text-gray-400 transition-all duration-500 ${scrolled ? "text-[6px] lg:text-[8px]" : "text-[8px] lg:text-[10px]"
                                     }`}>
-                                    Excellence in Education
+                                    L E A R N  •  G R O W  •  L E A D
                                 </p>
                             </div>
                         </Link>
