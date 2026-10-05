@@ -161,10 +161,12 @@ const Placement = () => {
                             </div>
 
                             {/* CHART */}
-                            <div className="flex-1 flex relative overflow-x-auto lg:overflow-x-visible pb-4 lg:pb-0 custom-scrollbar">
-                                <div className="flex-1 flex min-w-[700px] lg:min-w-0 relative">
+                            {/* CHART */}
+                            <div className="flex-1 relative overflow-x-auto pb-6 custom-scrollbar">
+                                <div className="flex min-w-[1100px] relative">
+                            
                                     {/* Y AXIS */}
-                                    <div className="flex flex-col justify-between mr-4 h-72 text-[11px] font-bold text-brand-navy/60">
+                                    <div className="flex flex-col justify-between mr-4 h-72 text-[11px] font-bold text-brand-navy/60 shrink-0">
                                         <span>100%</span>
                                         <span>80%</span>
                                         <span>60%</span>
@@ -172,9 +174,10 @@ const Placement = () => {
                                         <span>20%</span>
                                         <span>0%</span>
                                     </div>
-
+                            
                                     {/* GRAPH AREA */}
-                                    <div className="flex-1 relative border-l-2 border-b-2 border-brand-navy/10 flex items-end justify-around px-2 lg:px-8 h-72">
+                                    <div className="flex-1 relative border-l-2 border-b-2 border-brand-navy/10 flex items-end justify-around px-4 h-72">
+                            
                                         {/* GRID LINES */}
                                         {[100, 80, 60, 40, 20, 0].map((_, i) => (
                                             <div
@@ -183,12 +186,12 @@ const Placement = () => {
                                                 style={{ bottom: `${(i / 5) * 100}%` }}
                                             />
                                         ))}
-
+                            
                                         {/* BARS */}
                                         {placements.map((p, idx) => (
                                             <div
                                                 key={idx}
-                                                className="relative flex-1 flex flex-col items-center justify-end h-full px-1 lg:px-2 group max-w-[80px]"
+                                                className="relative flex-1 flex flex-col items-center justify-end h-full px-2 group max-w-[70px]"
                                             >
                                                 {/* BAR */}
                                                 <div className="relative w-full flex items-end justify-center h-full">
@@ -203,33 +206,34 @@ const Placement = () => {
                                                             delay: idx * 0.05,
                                                             ease: [0.22, 1, 0.36, 1]
                                                         }}
-                                                        className="w-full relative rounded-t-2xl shadow-lg shadow-brand-gold/10 group-hover:shadow-brand-gold/30 transition-all duration-500 overflow-hidden"
+                                                        className="w-5 lg:w-7 relative rounded-t-2xl shadow-lg shadow-brand-gold/10 group-hover:shadow-brand-gold/30 transition-all duration-500 overflow-hidden"
                                                     >
                                                         {/* BAR GRADIENT */}
                                                         <div className="absolute inset-0 bg-gradient-to-b from-brand-gold via-brand-gold/90 to-brand-navy/80" />
-
+                            
                                                         {/* SHINE EFFECT */}
                                                         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-[100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
                                                     </motion.div>
                                                 </div>
-
+                            
                                                 {/* X AXIS LABEL */}
-                                                <div className="absolute -bottom-10 flex flex-col items-center">
+                                                <div className="absolute -bottom-11 left-1/2 -translate-x-1/2 flex flex-col items-center">
                                                     <div className="h-2 w-0.5 bg-brand-navy/20 mb-1" />
-                                                    <span className="text-[9px] lg:text-[11px] font-black uppercase tracking-wider text-brand-navy whitespace-nowrap">
-                                                        <span className="md:hidden">{p.year.split('-')[1]}</span>
-                                                        <span className="hidden md:inline">{p.year}</span>
+                            
+                                                    <span className="text-[10px] font-black text-brand-navy whitespace-nowrap">
+                                                        {p.year}
                                                     </span>
                                                 </div>
                                             </div>
                                         ))}
-
+                            
                                         {/* X AXIS TITLE */}
-                                        <div className="absolute -bottom-16 left-1/2 -translate-x-1/2 hidden md:block">
+                                        <div className="absolute -bottom-20 left-1/2 -translate-x-1/2">
                                             <span className="text-[10px] font-black uppercase tracking-[0.4em] text-brand-navy/60">
                                                 Academic Year
                                             </span>
                                         </div>
+                            
                                     </div>
                                 </div>
                             </div>
