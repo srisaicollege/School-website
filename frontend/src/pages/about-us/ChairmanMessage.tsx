@@ -39,8 +39,8 @@ const ChairmanMessage = () => {
               variants={itemVariants}
               className="text-3xl lg:text-5xl font-black font-display text-brand-navy leading-tight italic uppercase relative z-10"
             >
-              The Foundation of <br />
-              <span className="text-brand-gold">Progressive Societies</span>
+              A Vision For A <br />
+              <span className="text-brand-gold">Brighter Future</span>
             </motion.h1>
 
             <motion.div variants={itemVariants} className="relative mt-8 z-10">
