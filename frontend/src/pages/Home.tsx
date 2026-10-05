@@ -102,7 +102,7 @@ const Home = () => {
                                 {/* Description */}
                                 <motion.div variants={itemVariants}>
                                     <BlurText
-                                        text="SRI SAI VIDYALAYA is committed to providing quality education in a safe, supportive, and inspiring environment where every child is encouraged to learn, grow, and achieve excellence with confidence."
+                                        text="SRI SAI VIDYALAYA is committed to providing quality education in a safe, supportive, and inspiring environment where we prepare every student in building the confidence, knowledge and skills needed for their future success."
                                         className="text-sm md:text-base text-blue-100/70 max-w-xl leading-relaxed font-bold font-display"
                                         delay={50}
                                         animateBy="words"
@@ -193,7 +193,7 @@ const Home = () => {
                                 Our institution strives to provide quality education that encourages academic excellence, moral values, discipline, creativity, and holistic development. We prepare every student with the confidence, knowledge, and skills needed for future success.
                                 </motion.p>
                                 <motion.div variants={itemVariants} className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
-                                    {['Safe & Supportive Learning Environment', 'Qualified & Caring Faculty', 'Holistic Development', 'Modern Learning Facilities'].map(item => (
+                                    {['Safe & Supportive Learning Environment', 'Qualified & Caring Faculty', 'Holistic Development', 'Modern Learning Facilities', 'Building their carrer'].map(item => (
                                         <div key={item} className="flex items-center gap-3 font-bold text-brand-navy text-sm lg:text-base group">
                                             <div className="h-6 w-6 rounded-full bg-yellow-50 flex items-center justify-center text-brand-gold shrink-0 group-hover:scale-110 transition-transform">
                                                 <CheckCircle className="w-4 h-4" />
