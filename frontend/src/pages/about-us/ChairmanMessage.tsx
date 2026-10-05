@@ -48,23 +48,23 @@ const ChairmanMessage = () => {
 
               <div className="space-y-6 text-sm lg:text-base text-slate-600 leading-loose font-medium font-display pr-4 lg:pr-8">
                 <p>
-                  It gives me immense pleasure to share my message in this edition of our school magazine. This magazine is not just a collection of pages but a reflection of the creativity, talent, values, and achievements of our students and teachers.
+                  It gives me immense pleasure to share my thoughts on the vision and values that guide Sri Sai Vidyalaya. Education is one of the most powerful foundations for shaping a better future, and our responsibility extends beyond academic excellence to nurturing responsible, confident, and compassionate individuals.
                 </p>
-
+                
                 <p>
-                  Education is not limited to textbooks and examinations alone. It is about shaping character, nurturing curiosity, and preparing young minds to face the challenges of the future with confidence and integrity. Our school strives to provide a balanced education that blends academic excellence with moral values, discipline, creativity, and social responsibility.
+                  At Sri Sai Vidyalaya, we believe that true education is a harmonious blend of knowledge, character, discipline, creativity, and values. Our aim is to provide every student with an environment that encourages curiosity, independent thinking, and the confidence to face the challenges of an ever-changing world.
                 </p>
-
+                
                 <p>
-                  I appreciate the sincere efforts of our students who have expressed their thoughts, ideas, and talents through articles, poems, drawings, and achievements showcased in this magazine. I also commend the dedication of our teachers and the editorial team for guiding the students and bringing out this wonderful publication.
+                  I deeply appreciate the dedication of our teachers, whose commitment and guidance play a vital role in shaping the lives of our students. I also value the support and trust of our parents, whose partnership is essential in creating a strong foundation for every child's growth and development.
                 </p>
-
+                
                 <p>
-                  I encourage all students to dream big, work hard, and remain committed to lifelong learning. May this magazine inspire you to explore your potential and contribute positively to society.
+                  I encourage our students to dream with purpose, work with determination, remain humble, and always strive to learn and improve. Success is not measured only by achievements, but also by the values we uphold and the positive difference we make in the lives of others.
                 </p>
-
+                
                 <p>
-                  I wish the entire school fraternity continued success and a bright future ahead.
+                  With a shared commitment to excellence and strong values, I am confident that Sri Sai Vidyalaya will continue to inspire young minds and empower them to build a bright and meaningful future.
                 </p>
 
                 <div className="pt-6 mt-6 border-t border-gray-200">
