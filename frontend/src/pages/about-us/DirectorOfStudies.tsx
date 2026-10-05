@@ -28,16 +28,23 @@ const DirectorOfStudies = () => {
                             <Quote className="absolute -top-8 -left-8 h-16 w-16 text-gray-100 opacity-30 -z-10 animate-pulse" />
                             <div className="space-y-6 text-sm lg:text-base text-slate-600 leading-loose font-medium font-display pr-4 lg:pr-8">
                                 <p>
-                                    Education is not merely the acquisition of knowledge; it is the shaping of character, values, and vision. A school magazine stands as a reflection of this holistic development, showcasing the creativity, talents, and thoughtful expressions of our students and teachers.
+                                    Education is not merely the acquisition of knowledge; it is the development of character, confidence, values, and a vision for the future. At Sri Sai Vidyalaya, we believe that every child has unique potential, and our responsibility is to provide the right environment and guidance to help that potential flourish.
                                 </p>
+                                
                                 <p>
-                                    I am delighted to see this magazine as a platform where young minds articulate their ideas, achievements, and aspirations. Such efforts encourage confidence, originality, and a love for learning beyond textbooks. I appreciate the dedication of the editorial team, teachers, and students who have worked tirelessly to bring out this meaningful publication.
+                                    Our approach to education focuses on creating strong academic foundations while encouraging curiosity, creativity, critical thinking, and a genuine love for learning. We strive to make learning meaningful and engaging, enabling students to understand concepts, explore new ideas, and apply their knowledge beyond the classroom.
                                 </p>
+                                
                                 <p>
-                                    In a rapidly changing world, it is essential that our students grow not only academically strong but also morally responsible and socially conscious. Let this magazine inspire innovation, teamwork, and a lifelong quest for excellence.
+                                    In a rapidly changing world, students need more than academic knowledge to succeed. They need resilience, adaptability, communication skills, empathy, and a strong sense of responsibility. Through a balanced approach to education, we aim to prepare our students to face challenges with confidence and make thoughtful and responsible decisions.
                                 </p>
+                                
                                 <p>
-                                    I extend my best wishes to the entire school community and congratulate everyone involved in making this magazine a success. May it continue to nurture creativity and inspire future leaders.
+                                    I sincerely appreciate the dedication of our teachers and the continuous support of our parents in nurturing our students. Together, we can create a learning environment where every child feels encouraged to question, discover, improve, and excel.
+                                </p>
+                                
+                                <p>
+                                    I encourage our students to remain curious, embrace challenges, and pursue excellence with determination and integrity. May their journey at Sri Sai Vidyalaya inspire them to become knowledgeable, confident, compassionate, and responsible individuals.
                                 </p>
                                 <div className="pt-6 mt-6 border-t border-gray-200">
                                     <div className="flex items-center gap-4">
