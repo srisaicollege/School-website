@@ -100,9 +100,9 @@ const History = () => {
             </div>
           </motion.div>
 
-          <motion.div variants={itemVariants} className="p-8 lg:p-10 bg-brand-navy rounded-[2.5rem] border border-white/5 space-y-6 relative overflow-hidden group text-white">
-            <div className="absolute bottom-0 left-0 w-32 h-32 bg-brand-gold/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2 opacity-50" />
-            <div className="space-y-4 text-white   leading-relaxed font-bold italic font-display text-sm lg:text-base">
+          <motion.div variants={itemVariants} className="p-8 lg:p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 space-y-6 relative overflow-hidden group">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-brand-gold/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 group-hover:bg-brand-gold/10 transition-colors" />
+            <div className="space-y-4 text-slate-600 leading-relaxed font-bold italic font-display text-sm lg:text-base">
               <p>
                 The school believes that education extends beyond textbooks and examinations. Students are encouraged to explore their interests through sports, cultural activities, yoga, celebrations, community initiatives, and other co-curricular experiences.
               </p>
