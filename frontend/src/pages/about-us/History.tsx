@@ -222,7 +222,7 @@ const History = () => {
           <div className="absolute top-0 right-0 w-64 h-64 bg-brand-gold/10 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
           <div className="relative z-10 text-center lg:text-left space-y-10">
             <div className="space-y-4">
-              <motion.h3 variants={itemVariants} className="text-2xl lg:text-5xl text-blue-100 font-black font-display tracking-tight uppercase italic leading-none">Growing Together <br /><span className="text-brand-gold">Into the Future</span></motion.h3>
+              <motion.h3 variants={itemVariants} className="text-2xl lg:text-5xl text-blue-100 font-black font-display tracking-tight uppercase italic leading-none">Igniting Young Minds</motion.h3>
               <motion.p variants={itemVariants} className=" text-blue-100/80 font-medium font-display text-sm lg:text-base leading-relaxed">
                 SRI SAI VIDYALAYA continues to nurture young minds through quality education, strong values, discipline, creativity, and holistic development, helping every student grow into a confident, responsible, and capable individual.
               </motion.p>
