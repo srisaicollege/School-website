@@ -45,16 +45,23 @@ const PrincipalMessage = () => {
               <Quote className="absolute -top-8 -left-8 h-16 w-16 text-gray-100 opacity-30 -z-10 animate-pulse" />
               <div className="space-y-6 text-sm lg:text-base text-slate-600 leading-loose font-medium font-display pr-4 lg:pr-8">
                 <p>
-                  Education is the sacred means through which knowledge, character, and culture are passed from one generation to the next. At Sri Sai Vidyalaya, we strive to impart holistic education that nurtures the intellect, discipline, values, and moral strength of every student.
+                  Education is the foundation upon which knowledge, character, and values are built. At Sri Sai Vidyalaya, we believe that true education goes beyond academic achievement and aims to nurture the intellect, discipline, confidence, and moral strength of every student.
                 </p>
+                
                 <p>
-                  This school magazine is a commendable effort that showcases the literary skills, creativity, and thoughtful expressions of our students. It serves as a mirror of the institution's academic spirit and cultural ethos. I appreciate the sincere efforts of the students, teachers, and the editorial committee who have contributed diligently to bring out this publication.
+                  Our commitment is to provide a learning environment where students are encouraged to explore their potential, think independently, develop their talents, and grow with a strong sense of responsibility. We strive to create a balanced educational experience that combines academic excellence with values, creativity, discipline, and respect for others.
                 </p>
+                
                 <p>
-                  In keeping with our tradition, we aim to mould our students into responsible, respectful, and service-minded individuals who will uphold the values of our nation and society. May this magazine inspire young minds to pursue knowledge with humility and dedication.
+                  In keeping with our vision, we aim to nurture students into responsible, respectful, compassionate, and service-minded individuals who are prepared to contribute positively to society. With the dedicated efforts of our teachers and the support of parents, we continue to guide our students towards becoming confident and capable individuals.
                 </p>
+                
                 <p>
-                  I extend my best wishes to all our students for success in their educational journey and congratulate the team behind this noble endeavour.
+                  I encourage every student to approach learning with curiosity, work with dedication, face challenges with courage, and always uphold strong values. May their journey at Sri Sai Vidyalaya be filled with meaningful learning, personal growth, and lasting success.
+                </p>
+                
+                <p>
+                  I wish all our students the very best in their educational journey and look forward to seeing them grow into individuals who make a positive difference in the world around them.
                 </p>
                 <div className="pt-6 mt-6 border-t border-gray-200">
                   <div className="flex items-center gap-4">
