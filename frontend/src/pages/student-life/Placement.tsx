@@ -108,6 +108,24 @@ const Placement = () => {
                     </p>
                 </motion.div>
 
+                {/* SSLC Results Image */}
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6 }}
+                    viewport={{ once: true }}
+                    className="mb-16 px-2 sm:px-4"
+                >
+                    <div className="max-w-5xl mx-auto overflow-hidden rounded-2xl shadow-lg">
+                        <img
+                            src="/home/hero-6.jpeg"
+                            alt="Sri Sai Vidyalaya SSLC 2026 Exam-1 Results"
+                            className="block w-full h-auto"
+                            loading="lazy"
+                        />
+                    </div>
+                </motion.div>
+
                 {/* Highlights Section */}
                 <motion.div
                     variants={containerVariants}
