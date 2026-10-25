@@ -39,12 +39,12 @@ const Founders = () => {
                 className="w-full max-w-[280px] mx-auto md:mx-0"
               >
                 <div className="relative rounded-2xl overflow-hidden shadow-xl border-b-4 border-brand-gold">
-                  <img
-                    src="/about-us/founder.jpeg"
-                    alt="Sri. Y. Ramachandra"
-                    className="w-full h-[340px] object-cover object-top"
-                    loading="lazy"
-                  />
+                <img
+                  src="/about-us/founder.jpeg"
+                  alt="Sri. Y. Ramachandra and his wife"
+                  className="w-full h-auto object-contain"
+                  loading="lazy"
+                />
                 </div>
               </motion.div>
 
